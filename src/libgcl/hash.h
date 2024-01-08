@@ -259,6 +259,7 @@
 #define CHARA_ENVMAP3           0x001c
 #define CHARA_UNKNOWN_002F      0x002f // ???
 #define CHARA_UNKNOWN_0033      0x0033 // ???
+#define CHARA_PREOPE            0x6d1b
 
 //------------------------------------------------------------------------------
 // Stages
@@ -444,7 +445,6 @@
 #define CHARA_FLR_SPA           0xfc0b
 #define CHARA_UNKNOWN_3AD2      0x3ad2 // ???
 #define CHARA_BG_HEX_P          0xcc89
-#define CHARA_PREOPE            0x6d1b
 #define CHARA_NINJA_D8DD        0xd8dd
 #define CHARA_OTACOM            0xbf66
 #define CHARA_SNE_03C_A404      0xa404

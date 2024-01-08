@@ -1,9 +1,10 @@
+#include "libgcl/hash.h"
 #include "libgcl/libgcl.h"
 
 GCL_ActorTableEntry preopeOverlayCharas[] = 
 {
-    { 0x6D1B, (TGCL_ActorCreateFn)0x800C4DA4 },
-    { 0, 0 }
+    { CHARA_PREOPE, (TGCL_ActorCreateFn)0x800C4DA4 }, // preope_800C4DA4
+    { NULL, NULL }
 };
 
 int preope_dword_800C3218 = 0x00000001;
