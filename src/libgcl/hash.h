@@ -254,6 +254,11 @@
 #define CHARA_PAD_CBF8          0xcbf8
 #define CHARA_BULLET            0x000b
 #define CHARA_UNKNOWN_004C      0x004c
+#define CHARA_UNKNOWN_3453      0x3453 // ???
+#define CHARA_DEMOASI           0x0010
+#define CHARA_ENVMAP3           0x001c
+#define CHARA_UNKNOWN_002F      0x002f // ???
+#define CHARA_UNKNOWN_0033      0x0033 // ???
 
 //------------------------------------------------------------------------------
 // Stages
@@ -264,7 +269,6 @@
 // Other charas shouldn't be needed for the main exe
 /*
 #define CHARA_UNKNOWN_002A      0x002a // ???
-#define CHARA_UNKNOWN_002F      0x002f // ???
 #define CHARA_BLST_LN           0x0030
 #define CHARA_BLOOD             0x0009 // not sure!
 #define CHARA_D_BLOODS          0x000d
@@ -272,16 +276,13 @@
 #define CHARA_BLOOD_HZD         0x0047 // bloodhzd.c
 #define CHARA_SPLASH            0x000a
 #define CHARA_BOMBLED           0x004a
-#define CHARA_UNKNOWN_0033      0x0033 // ???
 #define CHARA_CELOFAN           0x003a
 #define CHARA_CELOFAN2          0x0040
 #define CHARA_CRSH_SMK          0x0039
 #define CHARA_UNKNOWN_0034      0x0034 // ???
 #define CHARA_GOGGLE            0x0015
 #define CHARA_GGLSIGHT          0x0016
-#define CHARA_ENVMAP3           0x001c
 #define CHARA_BLAST             0x0001
-#define CHARA_DEMOASI           0x0010
 #define CHARA_UNKNOWN_0019      0x0019 // ???
 #define CHARA_GASMASK_SIGHT     0x0022 // gmsight.c
 #define CHARA_REALSHDW          0x0046
@@ -408,7 +409,6 @@
 #define CHARA_EVPANEL           0xa2b5
 #define CHARA_MODEL_DT          0x7acf
 #define CHARA_MONITOR1          0x6d78
-#define CHARA_UNKNOWN_3453      0x3453 // ???
 #define CHARA_MOVIE             0x5345
 #define CHARA_M_DOOR            0xb98c
 #define CHARA_MEMPSY            0xd3c0

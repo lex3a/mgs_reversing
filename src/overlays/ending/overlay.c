@@ -1,22 +1,23 @@
+#include "libgcl/hash.h"
 #include "libgcl/libgcl.h"
 
 GCL_ActorTableEntry endingOverlayCharas[] = 
 {
-    { 0x02C4, (TGCL_ActorCreateFn)0x800C6CA0 },
-    { 0x3453, (TGCL_ActorCreateFn)0x800C4F34 },
-    { 0x7A05, (TGCL_ActorCreateFn)0x800C9E6C },
-    { 0x73EA, (TGCL_ActorCreateFn)0x800C5F7C },
-    { 0x0003, (TGCL_ActorCreateFn)0x800C8F18 },
-    { 0x0004, (TGCL_ActorCreateFn)0x800C8F18 },
-    { 0x000F, (TGCL_ActorCreateFn)0x800C7864 },
-    { 0x0010, (TGCL_ActorCreateFn)0x800C70C0 },
-    { 0x001C, (TGCL_ActorCreateFn)0x800CA3A4 },
-    { 0x0021, (TGCL_ActorCreateFn)0x800CAAA8 },
-    { 0x0025, (TGCL_ActorCreateFn)0x800C89D4 },
-    { 0x002F, (TGCL_ActorCreateFn)0x800C50C0 },
-    { 0x0033, (TGCL_ActorCreateFn)0x8007DA94 },
-    { 0x0044, (TGCL_ActorCreateFn)0x800C7ED0 },
-    { 0, 0 }
+    { CHARA_ASIATO, (TGCL_ActorCreateFn)0x800C6CA0 },
+    { CHARA_UNKNOWN_3453, (TGCL_ActorCreateFn)0x800C4F34 },
+    { CHARA_CINEMA, (TGCL_ActorCreateFn)0x800C9E6C },
+    { CHARA_SPHERE, (TGCL_ActorCreateFn)0x800C5F7C },
+    { CHARA_FADEIO, (TGCL_ActorCreateFn)0x800C8F18 },
+    { CHARA_FADEIO_0004, (TGCL_ActorCreateFn)0x800C8F18 },
+    { CHARA_DEMOKAGE, (TGCL_ActorCreateFn)0x800C7864 },
+    { CHARA_DEMOASI, (TGCL_ActorCreateFn)0x800C70C0 },
+    { CHARA_ENVMAP3, (TGCL_ActorCreateFn)0x800CA3A4 },
+    { CHARA_SUB_EFCT, (TGCL_ActorCreateFn)0x800CAAA8 },
+    { CHARA_BLOOD_BL, (TGCL_ActorCreateFn)0x800C89D4 },
+    { CHARA_UNKNOWN_002F, (TGCL_ActorCreateFn)0x800C50C0 },
+    { CHARA_UNKNOWN_0033, (TGCL_ActorCreateFn)0x8007DA94 },
+    { CHARA_FALL_SPL, (TGCL_ActorCreateFn)0x800C7ED0 },
+    { NULL, NULL }
 };
 
 const char ending_aMovied_800CC78C[] = "MOVIE %d\n";
