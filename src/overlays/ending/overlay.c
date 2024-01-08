@@ -1,22 +1,34 @@
 #include "libgcl/hash.h"
 #include "libgcl/libgcl.h"
+#include "../s00a/Enemy/asiato.h"
+#include "../s00a/Takabe/cinema.h"
+#include "../s01a/Thing/sphere.h"
+#include "../s16b/Takabe/fadeio.h"
+#include "../d11c/Enemy/demokage.h"
+#include "../s20a/Enemy/demoasi.h"
+#include "../d01a/Takabe/focus.h"
+#include "../d01a/Okajima/blur.h"
+#include "../d03a/Okajima/blurpure.h"
+
+void AN_Smoke_800CE164(SVECTOR *pos, SVECTOR *speed, int index, int script);
+void demothrd_2_8007DA94(SVECTOR *pPosition, SVECTOR *pRotation);
 
 GCL_ActorTableEntry endingOverlayCharas[] = 
 {
-    { CHARA_ASIATO, (TGCL_ActorCreateFn)0x800C6CA0 },
-    { CHARA_UNKNOWN_3453, (TGCL_ActorCreateFn)0x800C4F34 },
-    { CHARA_CINEMA, (TGCL_ActorCreateFn)0x800C9E6C },
-    { CHARA_SPHERE, (TGCL_ActorCreateFn)0x800C5F7C },
-    { CHARA_FADEIO, (TGCL_ActorCreateFn)0x800C8F18 },
-    { CHARA_FADEIO_0004, (TGCL_ActorCreateFn)0x800C8F18 },
-    { CHARA_DEMOKAGE, (TGCL_ActorCreateFn)0x800C7864 },
-    { CHARA_DEMOASI, (TGCL_ActorCreateFn)0x800C70C0 },
-    { CHARA_ENVMAP3, (TGCL_ActorCreateFn)0x800CA3A4 },
-    { CHARA_SUB_EFCT, (TGCL_ActorCreateFn)0x800CAAA8 },
-    { CHARA_BLOOD_BL, (TGCL_ActorCreateFn)0x800C89D4 },
-    { CHARA_UNKNOWN_002F, (TGCL_ActorCreateFn)0x800C50C0 },
-    { CHARA_UNKNOWN_0033, (TGCL_ActorCreateFn)0x8007DA94 },
-    { CHARA_FALL_SPL, (TGCL_ActorCreateFn)0x800C7ED0 },
+    { CHARA_ASIATO, NewAsiatoKun_800D1A70 },
+    { CHARA_UNKNOWN_3453, (TGCL_ActorCreateFn)0x800C4F34 }, // ending_movie_800C4F34
+    { CHARA_CINEMA, NewCinemaScreenSet_800DE4D8 },
+    { CHARA_SPHERE, NewSphere_800C69C0 },
+    { CHARA_FADEIO, NewFadeIo_800C4224 },
+    { CHARA_FADEIO_0004, NewFadeIo_800C4224 },
+    { CHARA_DEMOKAGE, (TGCL_ActorCreateFn)NewDemoKage_800C48A4 },
+    { CHARA_DEMOASI, (TGCL_ActorCreateFn)NewDemoasi_800C414C },
+    { CHARA_ENVMAP3, (TGCL_ActorCreateFn)0x800CA3A4 }, // ending_envmap3_800CA3A4
+    { CHARA_SUB_EFCT, NewFocus_800CEFF8 },
+    { CHARA_BLOOD_BL, NewBlur_800CD530 },
+    { CHARA_UNKNOWN_002F, (TGCL_ActorCreateFn)AN_Smoke_800CE164 },
+    { CHARA_UNKNOWN_0033, (TGCL_ActorCreateFn)demothrd_2_8007DA94 },
+    { CHARA_FALL_SPL, NewBlurPure_800C54D4},
     { NULL, NULL }
 };
 
