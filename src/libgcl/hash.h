@@ -260,6 +260,7 @@
 #define CHARA_UNKNOWN_002F      0x002f // ???
 #define CHARA_UNKNOWN_0033      0x0033 // ???
 #define CHARA_PREOPE            0x6d1b
+#define CHARA_LIFE_UP           0x711f
 
 //------------------------------------------------------------------------------
 // Stages
@@ -389,7 +390,6 @@
 #define CHARA_KEY_ITEM          0xc6ac
 #define CHARA_KMDARUTL          0xa6f6 // not sure!
 #define CHARA_LANDING           0x8b1a
-#define CHARA_LIFE_UP           0x711f
 #define CHARA_LIFT              0x425f
 #define CHARA_LIFT2             0x921b
 #define CHARA_LIQUID            0x7bf2
