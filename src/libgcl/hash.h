@@ -262,7 +262,9 @@
 #define CHARA_PREOPE            0x6d1b
 #define CHARA_LIFE_UP           0x711f
 #define CHARA_MERYL7            0x5078
+#define CHARA_MERYL7_E271       0xe271
 #define CHARA_MIRROR            0xc218
+#define CHARA_LOADER_9FFD       0x9ffd
 
 //------------------------------------------------------------------------------
 // Stages
@@ -323,7 +325,6 @@
 #define CHARA_S11_OBJS          0xe068
 #define CHARA_11B_DEMO          0xd53c
 #define CHARA_11G_DEMO          0x153e
-#define CHARA_LOADER            0x9ffd
 #define CHARA_SECOND            0x2d0a
 #define CHARA_ABST              0x566f
 #define CHARA_AB_DEMO1          0x4974
@@ -403,7 +404,6 @@
 #define CHARA_HAIR_M            0x450f
 #define CHARA_MEMPSY            0xaf72
 #define CHARA_MERYL3            0xc755
-#define CHARA_MERYL72           0xe271
 #define CHARA_MGREX             0x4754
 #define CHARA_MG_DEMO1          0x954b
 #define CHARA_HIND_s11g         0x1787
