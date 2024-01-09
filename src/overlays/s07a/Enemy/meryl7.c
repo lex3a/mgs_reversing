@@ -764,7 +764,7 @@ void EnemyMerylGetResources_800D5F24( WatcherWork *work, int name, int where )
 extern const char s07a_aMeryl7_800E2F04[];
 extern const char s07a_aEnemyworksized_800E2EEC[];
 
-GV_ACT* NewEnemyMeryl_800D63A4( int name, int where, int argc, char **argv ) {
+GV_ACT * NewEnemyMeryl_800D63A4( int name, int where, int argc, char **argv ) {
     WatcherWork *work ;
 
     printf( s07a_aEnemyworksized_800E2EEC, sizeof( WatcherWork ) );
