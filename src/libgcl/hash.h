@@ -220,6 +220,7 @@
 #define CHARA_SUB_EFCT          0x0021 // Focus
 #define CHARA_BLOOD_BL          0x0025 // Blur without blood?
 #define CHARA_SEPIA             0x0028
+#define CHARA_KATANA            0x002d
 #define CHARA_D_BLOODS_002B     0x002b
 #define CHARA_SMKE_LN           0x0031
 #define CHARA_RED_ALERT         0x0037 // red_alrt.c
@@ -265,6 +266,13 @@
 #define CHARA_MERYL7_E271       0xe271
 #define CHARA_MIRROR            0xc218
 #define CHARA_LOADER_9FFD       0x9ffd
+#define CHARA_WALL_SPA          0x2b24
+#define CHARA_BLOOD_CL          0x4e95
+#define CHARA_BLOOD_BL_6A4C     0x6a4c
+#define CHARA_BLOOD             0x0009 // not sure!
+#define CHARA_SPLASH            0x000a
+#define CHARA_D_BLOODS          0x000d
+#define CHARA_UNKNOWN_0011      0x0011 // ???
 
 //------------------------------------------------------------------------------
 // Stages
@@ -276,11 +284,8 @@
 /*
 #define CHARA_UNKNOWN_002A      0x002a // ???
 #define CHARA_BLST_LN           0x0030
-#define CHARA_BLOOD             0x0009 // not sure!
-#define CHARA_D_BLOODS          0x000d
 #define CHARA_BLOOD_DRP         0x0048 // blooddrp.c
 #define CHARA_BLOOD_HZD         0x0047 // bloodhzd.c
-#define CHARA_SPLASH            0x000a
 #define CHARA_BOMBLED           0x004a
 #define CHARA_CELOFAN           0x003a
 #define CHARA_CELOFAN2          0x0040
@@ -298,10 +303,8 @@
 #define CHARA_MGREXLZR          0x0020
 #define CHARA_METAL_GEAR_ROOM   0x004b // mg_room.c
 #define CHARA_UNKNOWN_000C      0x000c // ???
-#define CHARA_UNKNOWN_0011      0x0011 // ???
 #define CHARA_WINDCRCL          0x0049
 #define CHARA_NINJALZR          0x0041
-#define CHARA_KATANA            0x002d
 #define CHARA_UNKNOWN_0035      0x0035 // ??
 #define CHARA_UNKNOWN_0036      0x0036 // ??
 #define CHARA_PLASMA_001D       0x001d
@@ -335,8 +338,6 @@
 #define CHARA_BELONG            0xf59e
 #define CHARA_B_SMOKE           0x6b6c
 #define CHARA_BLOODY_MERYL      0x1158 // mel10.c - 血まみれメリル
-#define CHARA_BLOOD_CL          0x4e95
-#define CHARA_BLOOD_BL_6A4C     0x6a4c
 #define CHARA_BLOOD_BL_9093     0x9093
 #define CHARA_BOXALL            0xf74b
 #define CHARA_BREAK_OBJECT      0x32fc // breakobj.c
@@ -507,7 +508,6 @@
 #define CHARA_PAUSE_MENU        0xa5dc // pausmenu.c
 #define CHARA_SNAKE_E1          0xb162
 #define CHARA_WAKE              0x41a3
-#define CHARA_WALL_SPA          0x2b24
 #define CHARA_WATER             0x96b5
 #define CHARA_WOLF2             0x962c
 #define CHARA_WT_AREA2          0xa480
