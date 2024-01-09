@@ -92,9 +92,6 @@ int s08c_dword_800C3588 = 0x00FF0001;
 int s08c_dword_800C358C = 0x00000000;
 int s08c_dword_800C3590 = 0x800D1BD4;
 
-const char s08c_dword_800D16D8[] = {'b', 'l', 'u', 'r'};
-const char s08c_dword_800D16DC[] = {'p', 'u', 'r', 'e'};
-const char s08c_dword_800D16E0[] = {'.', 'c', 0x0, 'r'};
 const char s08c_dword_800D16E4[] = {'b', 'l', 'u', 'r'};
 const int s08c_dword_800D16E8 = 0x8000632E;
 const char s08c_dword_800D16EC[] = {0xa4, 0xcf, 0xa4, 0xb8};

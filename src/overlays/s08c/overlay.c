@@ -56,6 +56,6 @@ GCL_ActorTableEntry s08cOverlayCharas[] =
     { CHARA_BLOOD_BL, (TGCL_ActorCreateFn)0x800CAEE4 }, // s08c_blur_800CAEE4
     { CHARA_SEPIA, (TGCL_ActorCreateFn)NewSepia_800C5214 },
     { CHARA_KATANA, (TGCL_ActorCreateFn)NewKatana_800C5660 },
-    { CHARA_FALL_SPL, (TGCL_ActorCreateFn)0x800CA3E0 }, // s08c_blurpure_800CA3E0
+    { CHARA_FALL_SPL, NewBlurPure_800C54D4 },
     { NULL, NULL }
 };

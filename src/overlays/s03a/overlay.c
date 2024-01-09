@@ -60,7 +60,7 @@ GCL_ActorTableEntry s03aOverlayCharas[] =
     { CHARA_RED_ALERT, (TGCL_ActorCreateFn)NewRedAlert2_800C4E84 },
     { CHARA_RED_ALERT_0038, (TGCL_ActorCreateFn)RedAlert_800C4F48 },
     { CHARA_GAS_EFCT, (TGCL_ActorCreateFn)NewGasEffect_800C4EF8 },
-    { CHARA_FALL_SPL, (TGCL_ActorCreateFn)NewBlurPure_800C54D4 },
+    { CHARA_FALL_SPL, NewBlurPure_800C54D4 },
     { CHARA_UNKNOWN_004C, (TGCL_ActorCreateFn)NewTelop2_800DDC60 },
     { NULL, NULL }
 };
