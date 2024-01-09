@@ -200,7 +200,7 @@ int BloodClGetResources_800C9A88(BloodClWork *work, int map)
     return 0;
 }
 
-GV_ACT * NewBloodCl_800C9DF0(int name, int where)
+GV_ACT * NewBloodCl_800C9DF0(int name, int where, int argc, char **argv)
 {
     BloodClWork *work;
 

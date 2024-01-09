@@ -185,7 +185,7 @@ void KatanaDie_800C5564(KatanaWork *work)
     }
 }
 
-GV_ACT *NewKatana_800C55A0(MATRIX *pos, SVECTOR *svec1, SVECTOR *svec2, int *field_44)
+GV_ACT * NewKatana_800C55A0(MATRIX *pos, SVECTOR *svec1, SVECTOR *svec2, int *field_44)
 {
     KatanaWork *work;
 
@@ -204,7 +204,7 @@ GV_ACT *NewKatana_800C55A0(MATRIX *pos, SVECTOR *svec1, SVECTOR *svec2, int *fie
     return &work->actor;
 }
 
-GV_ACT *NewKatana_800C5660(MATRIX *pos)
+GV_ACT * NewKatana_800C5660(MATRIX *pos)
 {
     SVECTOR     svec1;
     SVECTOR     svec2;

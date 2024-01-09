@@ -178,7 +178,7 @@ int SplashGetResources_800C8C6C(SplashWork *work, MATRIX *mat, int rgb)
     return 0;
 }
 
-GV_ACT *NewSplash_800C8D6C(MATRIX *mat, int rgb)
+GV_ACT * NewSplash_800C8D6C(MATRIX *mat, int rgb)
 {
     SplashWork *work;
 
