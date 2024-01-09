@@ -110,7 +110,7 @@ int LifeUpGetResources_800DF334(LifeUpWork *work, int name, int map)
     return 0;
 }
 
-GV_ACT * NewLifeUp_800DF428(int name, int where)
+GV_ACT * NewLifeUp_800DF428(int name, int where, int argc, char **argv)
 {
     LifeUpWork *work;
 
